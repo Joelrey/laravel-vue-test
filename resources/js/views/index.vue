@@ -1,6 +1,5 @@
 <template>  
     <router-view />
-    <router-view name="mainView"/>
 </template>
 
 <script>
