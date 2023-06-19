@@ -73,6 +73,7 @@ export default {
             .then(response => {
                 console.log(response.message)
                 this.$store.dispatch('updateToken', '');
+                this.$store.dispatch('updateUser', '');
             })
             .catch(error => {
                 console.log(error)

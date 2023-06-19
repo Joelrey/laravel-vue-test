@@ -5,7 +5,7 @@
                 <div class="col-sm-8 col-md-6 col-lg-4">
                     <div class="card mt-5">
                         <div class="card-header">
-                        <h5 class="m-0">Login</h5>
+                            <h5 class="m-0">Login</h5>
                         </div>
                         <div class="card-body">
                         <form @submit.prevent="login">

@@ -22189,6 +22189,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
               return axios.post('/api/logout').then(function (response) {
                 console.log(response.message);
                 _this2.$store.dispatch('updateToken', '');
+                _this2.$store.dispatch('updateUser', '');
               })["catch"](function (error) {
                 console.log(error);
               });

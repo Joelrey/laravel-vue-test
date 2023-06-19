@@ -1,7 +1,6 @@
 <template>
     <Layout>
         <div class="container">
-            
             <div>
                 <h1 class="my-2">Home</h1>
                 <h5>Lorem Ipsum</h5>

@@ -2,7 +2,7 @@
 <Layout>
     <div class="container">
         <div>
-            <h1 class=" my-2">Welcome {{ user.username }}!</h1>
+            <h2 class="my-2">Welcome {{ user.username }}!</h2>
             <router-link v-if="user.is_admin"  :to="{ name: 'records' }">
                 <button class="btn btn-sm btn-primary my-2">View Records</button>
             </router-link>
